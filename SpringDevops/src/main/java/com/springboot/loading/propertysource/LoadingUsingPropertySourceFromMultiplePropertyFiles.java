@@ -30,7 +30,7 @@ public class LoadingUsingPropertySourceFromMultiplePropertyFiles {
 	private String password;
 	@Value("${devops.region}")
 	private String region;
-	@Value("${environment}")
+	//@Value("${environment}")
 	private String enviroment;
 
 	public String getIp() {
